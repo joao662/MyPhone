@@ -1,0 +1,59 @@
+#calculadora{
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    margin-left: 20px;
+    margin-top: 190px;
+    position: relative;
+    border-radius: 5%;
+    padding: 5px;
+    font-weight: bold;
+    width: 200px;
+    height: 255px;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.botao{
+    margin: 3px;
+    font-size: 20px;
+    background-color: rgba(43, 103, 160, 0.904);
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.numero{
+    font-size: 20px;
+    background-color: rgba(85, 85, 85, 0.486);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 5px;
+}
+#resultado{
+    position: fixed;
+    width: 220px;
+    height: 360px;
+    left: 15px;
+    top: -10px;
+    font-size: 25px;
+    background-color: rgba(85, 85, 85);
+    color: rgb(255, 255, 255);
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 120px;
+    padding-right: 10px;
+    border-radius: 5%;
+    z-index: -1;
+}
+.botzimcal{
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 465px;
+}
+#calc{
+    display: none;
+}

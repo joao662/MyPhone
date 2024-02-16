@@ -1,0 +1,75 @@
+
+.botzimitau{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 465px;
+    z-index: 5;
+}
+#nubanklogo{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 3px;
+    border-radius: 8%;
+    z-index: -1; 
+}
+#nubanktop{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 3px;
+    border-radius: 8%;
+    z-index: -1;
+}
+#nubank{
+        display: none;
+
+}
+#nomenubank{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 100px;
+    border-radius: 8%;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conta{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 160px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#saldo{
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 190px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menubanco{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    margin-left: 25px;
+    margin-top: 220px;
+    border-radius: 10%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+}
+#menubanco img{
+        position: relative;
+        border-radius: 50%;
+}
+#menubanco .nomeapp{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

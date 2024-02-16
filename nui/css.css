@@ -1,0 +1,119 @@
+@font-face{
+    font-family: 'Open Sans';
+    src: url('fonts/Poppins-Light.ttf') format('truetype');
+}
+*{
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
+}
+#timetop{
+    position: fixed;
+    left: 38px;
+    top: 20px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    letter-spacing: 1.5px;
+    z-index: 200;
+}
+#circulo{
+    left: 62px;
+    top: 40px;
+    position: fixed;
+    z-index: 1;
+}
+#timedisplay{
+    position: fixed;
+    left: 70px;
+    top: 70px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.15em;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+#data{
+    position: fixed;
+    left: 78px;
+    top: 120px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: black 0.1em 0.2em 0.2em;
+    letter-spacing: 2px; 
+    z-index: 1;
+
+}
+
+#menurapido{
+    display: grid;
+    grid-template-columns: 55px 55px 55px 55px;
+    grid-template-rows: 70px 70px 70px 70px;
+    left: 23px;
+    top: 410px;
+    position: fixed;
+    align-items: center;
+    text-align: center;  
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;  
+    z-index: 1;
+}
+#menurapido img{
+    
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 35%;  
+}
+#menuapp{
+    display: grid;
+    grid-template-columns: 55px 55px 55px 55px;
+    grid-template-rows: 80px 80px 80px 80px;
+    left: 23px;
+    top: 180px;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif; 
+    z-index: 1; 
+}
+#menuapp img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-radius: 35%;  ,
+}
+#menuapp .nomeapp{
+    position: relative;
+    font-family: 'teste',Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: 'Open Sans' , Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+.paisagem img{
+    position: fixed;
+    border-radius: 14%;
+    z-index: -500;
+}
+#botzimmenu{
+    position: fixed;
+    left: 25px;
+    top: 470px;
+    z-index: 500;
+
+}
+#telefone{
+    position: fixed;
+    z-index: 0;
+}
+#nubankk{
+    display: none;
+}
+
